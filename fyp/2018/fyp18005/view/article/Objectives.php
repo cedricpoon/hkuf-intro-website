@@ -10,13 +10,12 @@
         <span class="date">Yesterday at 03:15PM&nbsp;&nbsp;&nbsp;#1</span>
       </div>
       <div class="text">
+        <p><i><u>Ultimate Goal</u></i><br/>Bring convenient to students with prompt knowledge exchange and solution</p>
         <p>The Application aims at providing a better platform to support peer learning and helping HKU students to learn effectively through discussing with students from all faculties.</p>
-        <ol class="ui list">
+        <p><ol class="ui list">
           <li>All ranges of academic questions on different topics, not limit to specific courses syllabus, can be asked freely in the platform.</li>
           <li>Users are free to answer with their knowledge or prior experience to share their point of view and receiving comments from others.</li>
-        </ol>
-        <b>Ultimate Goal</b><br/>Bring convenient to students with prompt knowledge exchange and solution<br/>
-        <br>
+        </ol></p>
       </div>
       <div class="actions">
         <a class="reply">Reply</a>

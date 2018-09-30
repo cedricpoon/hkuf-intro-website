@@ -2,7 +2,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A HKU CS 2018/19 Final Year Project from fyp18005">
+    <meta name="title" content="HKU Fellows - A Mobile App for Peer Learners">
+    <meta name="description" content="A HKU CS 2018/19 Final Year Project from fyp18005 to prompt knowledge exchange and solution among peers">
 
     <title>HKU Fellows</title>
     <link rel=icon href=.\favicon.ico>
