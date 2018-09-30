@@ -7,8 +7,9 @@ Internal project for introductory website of HKU Fellows
 - [X] Less.js for css
 - [X] MVC as infrastructure
 ## Run
-`php -S localhost:8080`
+1. `php -S localhost:8080`
 **(Page refreshing is not supported in dev environment)**
+2. Browse localhost:8080
 ## Develop
 ### Adding New Subpages
 1. Insert new sidebar item in /store/sidebarItems.json
