@@ -20,5 +20,9 @@
   {
     "title": "Schedule",
     "icon": "calendar alternate outline"
+  },
+  {
+    "title": "AboutUs",
+    "icon": "id card"
   }
 ]
