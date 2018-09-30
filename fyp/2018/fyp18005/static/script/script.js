@@ -69,10 +69,13 @@ function reposition(title) {
   $('.nav.menu .header').html(title);
 };
 
-function reRenderLess (f) {
-  if (!window.less) { return; }
-  Promise.all([less.registerStylesheets(), less.refresh()]).then(function(){
-    f();
+function reRenderLess () {
+  return new Promise((resolve, reject) => {
+    if (!window.less) { reject(); }
+
+    Promise.all([less.registerStylesheets(), less.refresh()]).then(function(){
+      resolve();
+    });
   });
 };
 
@@ -98,7 +101,7 @@ function loadPage(link) {
         setTimeout(function(){
           $('.article > .ui.container').html(data).hide();
           /* Load less after context is input */
-          reRenderLess(function(){
+          reRenderLess().then(() => {
             $('.article > .ui.container').show();
             $(pageholder).hide();
             randomize(['.thumbNo']);
@@ -131,6 +134,7 @@ window.onpopstate = function(event) {
 };
 
 $(document).ready(function(){
+  reRenderLess();
   randomize(['.postNo']);
   sidebarInit();
   appendPlaceHolders();
