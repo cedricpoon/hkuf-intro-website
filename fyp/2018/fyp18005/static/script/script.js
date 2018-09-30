@@ -53,19 +53,27 @@ function sidebarInit() {
   } else {
     $(sidebar).addClass('wide')
   }
-}
+};
 
 function reposition(title) {
+  /* Make page backable */
   window.history.pushState('{"route": "' + title + '"}', title, urlPrefix + '?' + title);
   /* Change title of Webpage*/
   $('title').html(title + ' | HKU Fellows');
   /* Change active sidebar item */
-  $('.sidebar > .item').removeClass('active');
-  $('.sidebar > .item:contains(' + title + ')').addClass('active');
+  $('.sidebar > .item.active').removeClass('active').click(siderbarItemOnClick);
+  $('.sidebar > .item:contains(' + title + ')').addClass('active').off('click');
   /* Change title on topMenu */
   $('.currentlyAt .blue.label').html(title);
   $('.nav.menu .header').html(title);
-}
+};
+
+function reRenderLess (f) {
+  if (!window.less) { return; }
+  Promise.all([less.registerStylesheets(), less.refresh()]).then(function(){
+    f();
+  });
+};
 
 function loadPage(link) {
   if (typeof link != 'undefined') {
@@ -87,7 +95,10 @@ function loadPage(link) {
       setTimeout(function(){
 
         $('.article > .ui.container').html(data);
-        $(pageholder).hide();
+        /* Load less after context is input */
+        reRenderLess(function(){
+          $(pageholder).hide();
+        });
       }, 100);
 
     }).error(function(){
@@ -99,11 +110,13 @@ function loadPage(link) {
   }
 };
 
+function siderbarItemOnClick () {
+  route = $(this).children('.title').html();
+  loadPage(route);
+};
+
 function appendSidebarItemOnClick () {
-  $('.sidebar > .item.enabled').click(function(){
-    route = $(this).children('.title').html();
-    loadPage(route);
-  });
+  $('.sidebar > .item.enabled').click(siderbarItemOnClick);
 };
 
 window.onpopstate = function(event) {

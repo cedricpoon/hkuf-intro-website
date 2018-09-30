@@ -4,8 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HKU Fellows</title>
 
-    <link rel="stylesheet/less" type="text/css" href=".\static\stylesheet\style.less" />
-
+    <link rel="stylesheet" type="text/css" href=".\static\stylesheet\semantic.min.css">
     <script src=".\static\script\jquery.min.js"></script>
     <script src=".\static\script\less.min.js"></script>
     <script src=".\static\script\semantic.min.js"></script>

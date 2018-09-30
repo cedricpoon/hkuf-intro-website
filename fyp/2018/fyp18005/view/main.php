@@ -1,4 +1,5 @@
 <body>
+  <link rel="stylesheet/less" type="text/css" href=".\static\stylesheet\style.less">  
   <script>
     $.getScript(".\\static\\script\\script.js");
   </script>
