@@ -19,6 +19,7 @@
   },
   {
     "title": "Schedule",
+    "label": "<div class=\"ui teal label\">Featured</div>",
     "icon": "calendar alternate outline"
   },
   {
