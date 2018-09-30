@@ -5,7 +5,7 @@
   <div class="comment">
     <i class="avatar big icon heart"></i>
     <div class="content">
-      <a class="author">Karen Chiu</a>
+      <a class="author" href="mailto:u3532369@hku.hk">Karen Chiu</a>
       <div class="metadata">
         <span class="date">Yesterday at 03:15PM&nbsp;&nbsp;&nbsp;#1</span>
       </div>
@@ -39,7 +39,7 @@
   <div class="comment">
     <i class="avatar big icon chess rook"></i>
     <div class="content">
-      <a class="author">Cedric Poon</a>
+      <a class="author" href="mailto:cedricpn@hku.hk">Cedric Poon</a>
       <div class="metadata">
         <span class="date">Just now&nbsp;&nbsp;&nbsp;#2</span>
       </div>
