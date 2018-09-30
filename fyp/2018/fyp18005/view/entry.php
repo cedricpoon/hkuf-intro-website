@@ -13,7 +13,7 @@
     <script src=".\static\script\less.min.js"></script>
     <script src=".\static\script\semantic.min.js"></script>
 </head>
-<body>
+<body ontouchstart>
   <div class="ui segment" style="height:100%">
     <div class="ui active dimmer">
       <div class="ui big loader"></div>
