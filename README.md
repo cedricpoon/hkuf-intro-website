@@ -1,10 +1,10 @@
 # hkuf-intro-website
 Internal project for introductory website of HKU Fellows
 ## Feature
-- [X] PHP Routing for subpages
-- [X] Ajax on subpages and mainpage loading
-- [X] Semantic UI on design
-- [X] Less.js for css
+- [X] PHP Routing for subpages — `/index.php`
+- [X] Ajax on subpages and mainpage loading — `/?*(...)`
+- [X] Semantic UI on design — [https://semantic-ui.com/](https://semantic-ui.com/ "Semantic UI")
+- [X] Less.js for css — [http://lesscss.org/](http://lesscss.org/ "Less.js")
 - [X] MVC as infrastructure
 ## Run
 1. `php -S localhost:8080`
