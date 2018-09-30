@@ -1,7 +1,7 @@
 <?php foreach ($items as $item) { ?>
   <a class="item enabled">
     <div class="ui label">
-      <i class="bookmark icon"></i><span class="postNo"></span>
+      <i class="bookmark icon"></i><span class="postNo">-</span>
     </div>
     <?php echo $item->label ?>
     <i class="<?php echo $item->icon ?> icon"></i>

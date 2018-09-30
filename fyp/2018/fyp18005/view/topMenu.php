@@ -21,11 +21,11 @@
     </a>
     <a class="item">
       <i class="thumbs up icon"></i>
-      <span class="thumbNo">1</span>
+      <span class="thumbNo">-</span>
     </a>
     <a class="item">
       <i class="thumbs down icon"></i>
-      <span class="thumbNo">1</span>
+      <span class="thumbNo">-</span>
     </a>
   </div>
 </div>

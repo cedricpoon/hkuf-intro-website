@@ -26,13 +26,14 @@ function appendPlaceHolders() {
   });
 };
 
-function randomize() {
+function randomize(array) {
   /* Randomize post number & like / dislike for each tag */
   let randf = function(){
-    $(this).html(Math.floor(Math.random() * 100) + 1)
+    $(this).html(Math.floor(Math.random() * 50) + 1)
   };
-  $('.postNo').each(randf);
-  $('.thumbNo').each(randf);
+  $.each(array, function(i, item){
+    $(item).each(randf);
+  });
 };
 
 function sidebarInit() {
@@ -53,19 +54,27 @@ function sidebarInit() {
   } else {
     $(sidebar).addClass('wide')
   }
-}
+};
 
 function reposition(title) {
+  /* Make page backable */
   window.history.pushState('{"route": "' + title + '"}', title, urlPrefix + '?' + title);
   /* Change title of Webpage*/
   $('title').html(title + ' | HKU Fellows');
   /* Change active sidebar item */
-  $('.sidebar > .item').removeClass('active');
-  $('.sidebar > .item:contains(' + title + ')').addClass('active');
+  $('.sidebar > .item.active').removeClass('active').click(siderbarItemOnClick);
+  $('.sidebar > .item:contains(' + title + ')').addClass('active').off('click');
   /* Change title on topMenu */
   $('.currentlyAt .blue.label').html(title);
   $('.nav.menu .header').html(title);
-}
+};
+
+function reRenderLess (f) {
+  if (!window.less) { return; }
+  Promise.all([less.registerStylesheets(), less.refresh()]).then(function(){
+    f();
+  });
+};
 
 function loadPage(link) {
   if (typeof link != 'undefined') {
@@ -78,32 +87,42 @@ function loadPage(link) {
     $(pageholder).children('.loader').show();
     $(pageholder).children('.comingSoon').hide();
     $(pageholder).show();
-    /* Ajax call page */
-    $.ajax({
-      url: urlPrefix + "?*" + link,
-      context: document.body
-    }).done(function(data) {
 
-      setTimeout(function(){
+    return new Promise((resolve) => {
+      /* Ajax call page */
+      $.ajax({
+        url: urlPrefix + "?*" + link,
+        context: document.body
+      }).done(function(data) {
 
-        $('.article > .ui.container').html(data);
-        $(pageholder).hide();
-      }, 100);
+        setTimeout(function(){
+          $('.article > .ui.container').html(data).hide();
+          /* Load less after context is input */
+          reRenderLess(function(){
+            $('.article > .ui.container').show();
+            $(pageholder).hide();
+            randomize(['.thumbNo']);
 
-    }).error(function(){
+            resolve();
+          });
+        }, 100);
 
-      $(pageholder).children('.loader').hide();
-      $(pageholder).children('.comingSoon').show();
+      }).error(function(){
 
+        $(pageholder).children('.loader').hide();
+        $(pageholder).children('.comingSoon').show();
+      });
     });
   }
 };
 
+function siderbarItemOnClick () {
+  route = $(this).children('.title').html();
+  loadPage(route);
+};
+
 function appendSidebarItemOnClick () {
-  $('.sidebar > .item.enabled').click(function(){
-    route = $(this).children('.title').html();
-    loadPage(route);
-  });
+  $('.sidebar > .item.enabled').click(siderbarItemOnClick);
 };
 
 window.onpopstate = function(event) {
@@ -112,7 +131,7 @@ window.onpopstate = function(event) {
 };
 
 $(document).ready(function(){
-  randomize();
+  randomize(['.postNo']);
   sidebarInit();
   appendPlaceHolders();
   appendSidebarItemOnClick();
