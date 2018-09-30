@@ -26,13 +26,14 @@ function appendPlaceHolders() {
   });
 };
 
-function randomize() {
+function randomize(array) {
   /* Randomize post number & like / dislike for each tag */
   let randf = function(){
-    $(this).html(Math.floor(Math.random() * 100) + 1)
+    $(this).html(Math.floor(Math.random() * 50) + 1)
   };
-  $('.postNo').each(randf);
-  $('.thumbNo').each(randf);
+  $.each(array, function(i, item){
+    $(item).each(randf);
+  });
 };
 
 function sidebarInit() {
@@ -86,26 +87,31 @@ function loadPage(link) {
     $(pageholder).children('.loader').show();
     $(pageholder).children('.comingSoon').hide();
     $(pageholder).show();
-    /* Ajax call page */
-    $.ajax({
-      url: urlPrefix + "?*" + link,
-      context: document.body
-    }).done(function(data) {
 
-      setTimeout(function(){
+    return new Promise((resolve) => {
+      /* Ajax call page */
+      $.ajax({
+        url: urlPrefix + "?*" + link,
+        context: document.body
+      }).done(function(data) {
 
-        $('.article > .ui.container').html(data);
-        /* Load less after context is input */
-        reRenderLess(function(){
-          $(pageholder).hide();
-        });
-      }, 100);
+        setTimeout(function(){
+          $('.article > .ui.container').html(data).hide();
+          /* Load less after context is input */
+          reRenderLess(function(){
+            $('.article > .ui.container').show();
+            $(pageholder).hide();
+            randomize(['.thumbNo']);
 
-    }).error(function(){
+            resolve();
+          });
+        }, 100);
 
-      $(pageholder).children('.loader').hide();
-      $(pageholder).children('.comingSoon').show();
+      }).error(function(){
 
+        $(pageholder).children('.loader').hide();
+        $(pageholder).children('.comingSoon').show();
+      });
     });
   }
 };
@@ -125,7 +131,7 @@ window.onpopstate = function(event) {
 };
 
 $(document).ready(function(){
-  randomize();
+  randomize(['.postNo']);
   sidebarInit();
   appendPlaceHolders();
   appendSidebarItemOnClick();

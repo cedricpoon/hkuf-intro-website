@@ -29,14 +29,20 @@
 
 .pusher.article {
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 110px;
 
-  .pageholder {
-    z-index: 999;
-  }
   @media only screen and (min-width: @tablet + 1px) {
     margin-left: 350px;
     transform: none !important;
+  }
+  .pageholder {
+    z-index: 999;
+  }
+  .ui.container {
+    @media only screen and (min-width: @tablet + 1px) {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
   }
   .nav.ui.secondary.menu {
     position: fixed;
@@ -81,7 +87,12 @@
     right: 0;
     top: 50px;
     z-index: 1;
+    opacity: 0.2;
+    transition: opacity .1s;
 
+    &:hover {
+      opacity: 1;
+    }
     @media only screen and (min-width: @mobile + 1px) {
       display: none;
     }
