@@ -8,7 +8,7 @@ Internal project for introductory website of HKU Fellows
 - [X] MVC as infrastructure
 ## Run
 1. `php -S localhost:8080`
-**(Page refreshing is not supported in dev environment)**
+**(Please set document root at `/` instead of `/fyp/2018/fyp18005`)**
 2. Browse localhost:8080
 ## Develop
 ### Adding New Subpages
