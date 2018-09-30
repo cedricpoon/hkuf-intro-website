@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Introduction",
+    "label": "<div class=\"ui red label\">New Post</div>",
+    "icon": "flag"
+  },
+  {
+    "title": "Objectives",
+    "label": "<div class=\"ui teal label\">Featured</div>",
+    "icon": "search"
+  },
+  {
+    "title": "Scope",
+    "icon": "binoculars"
+  },
+  {
+    "title": "Methodology",
+    "icon": "wrench"
+  },
+  {
+    "title": "Schedule",
+    "icon": "calendar alternate outline"
+  }
+]
