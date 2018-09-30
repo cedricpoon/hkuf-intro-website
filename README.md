@@ -9,7 +9,7 @@ Internal project for introductory website of HKU Fellows
 ## Run
 1. `php -S localhost:8080`
 **(Please set document root at `/` instead of `/fyp/2018/fyp18005`)**
-2. Browse localhost:8080
+2. Browse http://localhost:8080/fyp/2018/fyp18005/
 ## Develop
 ### Adding New Subpages
 1. Insert new sidebar item in /store/sidebarItems.json
