@@ -119,7 +119,7 @@
     </div>
   </div>
   <div class="comment">
-    <i class="avatar big icon female"></i>
+    <i class="avatar big icon heart"></i>
     <div class="content">
       <a class="author">Karen Chiu</a>
       <div class="metadata">

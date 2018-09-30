@@ -3,7 +3,7 @@
 <div class="ui threaded comments">
   <h3 class="ui dividing header">Aim of HKU Fellows</h3>
   <div class="comment">
-    <i class="avatar big icon female"></i>
+    <i class="avatar big icon heart"></i>
     <div class="content">
       <a class="author">Karen Chiu</a>
       <div class="metadata">
