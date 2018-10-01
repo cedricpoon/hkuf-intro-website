@@ -13,7 +13,7 @@ Internal project for introductory website of HKU Fellows
 ## Develop
 ### Adding New Subpages
 1. Insert new sidebar item in /store/sidebarItems.json
-2. Design new view as /view/article/[Same file name as title].php
+2. Structure new subpage in /store/article/*.json (Refer to other articles)
 ### Paths
 > Root: /fyp/2018/fyp18005/
 - Controller: /controller/*.php
