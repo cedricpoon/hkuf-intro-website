@@ -9,9 +9,10 @@ foreach ($items as $item) {
     $route = $item->title;
     $_SERVER['QUERY_STRING'] = '.';
     break;
-  } else if ($_SERVER['QUERY_STRING'] == '*'.($item->title) && file_exists('view/article/'.$item->title.'.php')) {
+  } else if ($_SERVER['QUERY_STRING'] == '*'.($item->title) && file_exists('store/article/'.$item->title.'.json')) {
 
-    require 'view/article/'.$item->title.'.php';
+    $article = $item->title;
+    require 'controller/article.php';
     $_SERVER['QUERY_STRING'] = '*';
     break;
   }

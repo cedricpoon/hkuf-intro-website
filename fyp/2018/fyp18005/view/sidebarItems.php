@@ -1,4 +1,4 @@
-<?php foreach ($items as $item) { ?>
+<?php foreach ($store as $item) { ?>
   <a class="item enabled">
     <div class="ui label">
       <i class="bookmark icon"></i><span class="postNo">-</span>

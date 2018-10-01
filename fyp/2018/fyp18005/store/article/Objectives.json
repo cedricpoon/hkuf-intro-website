@@ -1,0 +1,32 @@
+{
+  "include": [],
+  "heading": "Aim of HKU Fellows",
+  "authors": {
+    "CP": {
+      "href": "mailto:cedricpn@hku.hk",
+      "name": "Cedric Poon",
+      "icon":"chess rook"
+    },
+    "KC": {
+      "href": "mailto:u3532369@hku.hk",
+      "name": "Karen Chiu",
+      "icon":"heart"
+    }
+  },
+  "comments": [
+    {
+      "author": "KC",
+      "timestamp": "Yesterday at 03:15PM",
+      "context": "<p><i><u>Ultimate Goal</u></i><br/>Bring convenient to students with prompt knowledge exchange and solution</p><p>The Application aims at providing a better platform to support peer learning and helping HKU students to learn effectively through discussing with students from all faculties.</p><p><ol class='ui list'><li>All ranges of academic questions on different topics, not limit to specific courses syllabus, can be asked freely in the platform.</li><li>Users are free to answer with their knowledge or prior experience to share their point of view and receiving comments from others.</li></ol></p>",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": "<span class='thumbNo'>-</span>"
+    },
+    {
+      "author": "CP",
+      "timestamp": "Just now",
+      "context": "<p>We hope it can be a new platform for HKU students to acquire knowledge out of their majors.</p>",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": "<span class='thumbNo'>-</span>"
+    }
+  ]
+}

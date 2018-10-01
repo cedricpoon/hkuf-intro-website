@@ -1,0 +1,60 @@
+{
+  "include": [],
+  "heading": "What is HKU Fellows?",
+  "authors": {
+    "DC": {
+      "href": "https://i.cs.hku.hk/~twchim/",
+      "name": "Dr. Chim T W",
+      "icon":"user secret"
+    },
+    "CP": {
+      "href": "mailto:cedricpn@hku.hk",
+      "name": "Cedric Poon",
+      "icon":"chess rook"
+    },
+    "KC": {
+      "href": "mailto:u3532369@hku.hk",
+      "name": "Karen Chiu",
+      "icon":"heart"
+    }
+  },
+  "comments": [
+    {
+      "author": "DC",
+      "timestamp": "3 days ago",
+      "context": "I saw this project on <a href='https://community.cs.hku.hk/web/csis0801/projectlist'>HKU CS Project List 2018-19</a>. May I ask what is it about?",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": 0
+    },
+    {
+      "author": "CP",
+      "timestamp": "2 days ago",
+      "context": "<p>It is a smart phone application which supports all HKU students to learn effectively through a forum platform on different courses or any academic topics, which can facilitate peer learning among students from different years. On the other hand, the application is designed as to improve the current forum function of HKU Moodle.</p>",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": "<span class='thumbNo'>-</span>",
+      "comments": [
+        {
+          "author": "CP",
+          "timestamp": "2 days ago",
+          "context": "<p>Unlike the Moodle forum, all users are anonymous and able to post in any subjects. Students from different faculty are able to raise or resolve others questions, no matter they have registered to the course or not.</p>",
+          "thumbsUp": "<span class='thumbNo'>-</span>",
+          "thumbsDown": "<span class='thumbNo'>-</span>"
+        }
+      ]
+    },
+    {
+      "author": "DC",
+      "timestamp": "Yesterday at 12:30PM",
+      "context": "Why peer learning is so important to be adapted into your idea?",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": 0
+    },
+    {
+      "author": "KC",
+      "timestamp": "Today at 09:42AM",
+      "context": "<p><a><b>@twchim</b></a> Peer learning is a way to expedite timely knowledge flow among student fellows. With the rationale that fellows are sharing analogous circumstances like studying / studied in certain courses, understandable and down to earth approaches as solutions to academic problems are likely to be shared.</p>",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": "<span class='thumbNo'>-</span>"
+    }
+  ]
+}
