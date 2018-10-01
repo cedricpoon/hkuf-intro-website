@@ -8,7 +8,7 @@
     <div class="content">
       <a class="author" href="mailto:cedricpn@hku.hk">Cedric Poon</a>
       <div class="metadata">
-        <span class="date">Today at 02:45PM&nbsp;&nbsp;&nbsp;#2</span>
+        <span class="date">Today at 02:45PM&nbsp;&nbsp;&nbsp;#1</span>
       </div>
       <div class="text">
         <p>
@@ -50,7 +50,7 @@
         <div class="content">
           <a class="author" href="mailto:u3532369@hku.hk">Karen Chiu</a>
           <div class="metadata">
-            <span class="date">Today at 04:00PM&nbsp;&nbsp;&nbsp;#3</span>
+            <span class="date">Today at 04:00PM&nbsp;&nbsp;&nbsp;#2</span>
           </div>
           <div class="text">
             <p>As <a><b>@cedricpn</b></a> mentioned, those two aspects will be focused in designing the features of the App.</p>
@@ -83,10 +83,10 @@
     <div class="content">
       <a class="author" href="mailto:cedricpn@hku.hk">Cedric Poon</a>
       <div class="metadata">
-        <span class="date">Today at 02:27PM&nbsp;&nbsp;&nbsp;#1</span>
+        <span class="date">Today at 04:10PM&nbsp;&nbsp;&nbsp;#3</span>
       </div>
       <div class="text">
-        <p>In order to have a peek on what <span class="ui teal mini icon basic label"><i class="icon graduation cap"></i>HKU Fellows</span> provides, possible features will be shared below.</p>
+        <p>In order to have a peek on what <span class="ui teal mini icon basic label"><i class="icon graduation cap"></i>HKU Fellows</span> provides, possible features will be shared below. <i>Click on it for more details.</i></p>
       </div>
       <div class="actions">
         <a class="reply">Reply</a>

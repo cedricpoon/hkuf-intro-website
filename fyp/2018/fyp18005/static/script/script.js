@@ -29,7 +29,7 @@ function appendPlaceHolders() {
 function randomize(array) {
   /* Randomize post number & like / dislike for each tag */
   let randf = function(){
-    $(this).html(Math.floor(Math.random() * 50) + 1)
+    $(this).html(Math.floor(Math.random() * 20) + 1)
   };
   $.each(array, function(i, item){
     $(item).each(randf);
