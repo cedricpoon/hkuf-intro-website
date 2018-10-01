@@ -1,0 +1,60 @@
+{
+  "include": [],
+  "heading": "Team FYP18005",
+  "authors": {
+    "DC": {
+      "href": "https://i.cs.hku.hk/~twchim/",
+      "name": "Dr. T.W. Chim",
+      "icon":"user secret"
+    },
+    "CP": {
+      "href": "mailto:cedricpn@hku.hk",
+      "name": "Cedric Poon",
+      "icon":"chess rook"
+    },
+    "KC": {
+      "href": "mailto:u3532369@hku.hk",
+      "name": "Karen Chiu",
+      "icon":"heart"
+    }
+  },
+  "comments": [
+    {
+      "author": "CP",
+      "timestamp": "Today at 11:11AM",
+      "context": "<p>We two are Final Year Computer Science Students in The University of Hong Kong.<br><a class='ui teal mini icon basic label' onclick='loadPage(\"Introduction\")'><i class='icon graduation cap'></i>HKU Fellows</a> is our Final Year Project from <a href='https://community.cs.hku.hk/web/csis0801/home'><i class='linkify icon'></i>COMP4801</a></p>",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": "0",
+      "comments": [
+        {
+          "author": "KC",
+          "timestamp": "Today at 12:00PM",
+          "context": "<p>We are glad to have <a class='ui image label' href='https://www.cs.hku.hk/people/profile.jsp?teacher=twchim'><img src='https://i.cs.hku.hk/~twchim/images/drtwchim.jpg'>Dr. T.W. Chim</a> from <a href='https://www.cs.hku.hk/'><i class='linkify icon'></i>Department of Computer Science, HKU</a> to be our supervisor in this project.</p>",
+          "thumbsUp": "<span class='thumbNo'>-</span>",
+          "thumbsDown": "0"
+        }
+      ]
+    },
+    {
+      "author": "DC",
+      "timestamp": "Just now",
+      "context": "<p>BEng, M.Phil, PhD <i>HK</i><br>Lecturer</p><p><a href='mailto:twchim@cs.hku.hk'><i class='envelope icon'></i>twchim@cs.hku.hk</a></p>",
+      "thumbsUp": "30",
+      "thumbsDown": "0"
+    },
+    {
+      "author": "CP",
+      "timestamp": "Just now",
+      "context": "<p><a class='ui image label' href='https://github.com/cedricpoon/'><img src='https://media.licdn.com/dms/image/C5103AQEAKE0XPhv-Ag/profile-displayphoto-shrink_200_200/0?e=1544054400&v=beta&t=EGioEDi6q4lLlUI7ElhyXJnti2cxyVScH0-yUSrfOeM'>POON Tsz Ho Cedric</a></p><p>Final Year Computer Science Student</p><p><a href='https://www.linkedin.com/in/cedricthpoon'><i class='linkedin icon'></i>cedricthpoon</a></p><p><a href='mailto:cedricpn@hku.hk'><i class='envelope icon'></i>cedricpn@hku.hk</a></p>",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": "0"
+    },
+    {
+      "author": "KC",
+      "timestamp": "Just now",
+      "context": "<p>Chiu Chin Yan</p><p>Final Year Computer Science Student</p><p><a href='mailto:u3532369@hku.hk'><i class='envelope icon'></i>u3532369@hku.hk</a></p>",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": "0"
+    }
+  ]
+}

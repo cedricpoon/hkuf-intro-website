@@ -1,0 +1,53 @@
+{
+  "include": [],
+  "heading": "Why the Application is scripted in React Native?",
+  "authors": {
+    "DC": {
+      "href": "https://i.cs.hku.hk/~twchim/",
+      "name": "Dr. T.W. Chim",
+      "icon":"user secret"
+    },
+    "CP": {
+      "href": "mailto:cedricpn@hku.hk",
+      "name": "Cedric Poon",
+      "icon":"chess rook"
+    },
+    "KC": {
+      "href": "mailto:u3532369@hku.hk",
+      "name": "Karen Chiu",
+      "icon":"heart"
+    }
+  },
+  "comments": [
+    {
+      "author": "DC",
+      "timestamp": "2 days ago",
+      "context": "<p>I have heard that the Application is going to be scripted in <a class='ui blue mini icon basic label' href='https://facebook.github.io/react-native/'><i class='icon react'></i>React Native</a><br>May I know the reason behind?</p>",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": 0
+    },
+    {
+      "author": "CP",
+      "timestamp": "2 days ago",
+      "context": "<p><a><b>@drtwchim</b></a> Cross platform development tools will increase coding efficiency. With this reason, React Native will be adopted. It is a framework for building native application by using JavaScript, and compiled to runnable in cross operating system manner. Popular mobile application including Facebook, Instagram and Pinterest endorse with using React Native.</p>",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": "<span class='thumbNo'>-</span>"
+    },
+    {
+      "author": "KC",
+      "timestamp": "Yesterday at 12:45PM",
+      "context": "<p><a><b>@drtwchim</b></a> We are more familiar to JavaScript and React related frameworks. Although React Native has doubtlessly shorter history than <a class='ui blue mini icon basic label' href='http://xamarin.com'><img style='height:9px!important' class='ui right spaced image' src='https://cdn.freebiesupply.com/logos/large/2x/xamarin-logo-png-transparent.png'></i>Xamarin</a> which means it is somehow less developed in terms of components and maturation, this framework is trendy with progressive develop community for the Team to work with. Many up-to-date Javascript libraries available for web development can also be adopted in React Native, which makes the Application diversified by extensibility.</p>",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": "<span class='thumbNo'>-</span>",
+      "comments": [
+        {
+          "author": "CP",
+          "timestamp": "Just now",
+          "context": "<p>Yet, the components built by React Native is hot plugged, which makes the compilation time and runnable export faster than Xamarin.</p>",
+          "thumbsUp": "<span class='thumbNo'>-</span>",
+          "thumbsDown": "<span class='thumbNo'>-</span>"
+        }
+      ]
+    }
+  ]
+}
