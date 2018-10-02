@@ -13,8 +13,8 @@
     <div class="ui blue large label">HKU Fellows</div>
   </a>
   <div class="ui right icon menu">
-    <a class="item">
-      <i class="star outline icon"></i>
+    <a class="item" href="https://github.com/cedricpoon/hkuf-intro-website" data-content="Shared under MIT License" data-variation="mini inverted" data-position="left center">
+      <i class="blue large github icon"></i>
     </a>
     <a class="item">
       <i class="share alternate icon"></i>
@@ -30,19 +30,23 @@
   </div>
 </div>
 
+<script>
+  $('a.item').popup();
+</script>
+
 <div class="ui navMini vertical icon menu">
-  <a class="item">
-    <i class="star outline icon"></i>
+  <a class="item" href="https://github.com/cedricpoon/hkuf-intro-website">
+    <i class="blue large github icon"></i>
   </a>
   <a class="item">
     <i class="share alternate icon"></i>
   </a>
   <a class="item">
     <i class="thumbs up icon"></i>
-    <span class="thumbNo">1</span>
+    <span class="thumbNo">-</span>
   </a>
   <a class="item">
     <i class="thumbs down icon"></i>
-    <span class="thumbNo">1</span>
+    <span class="thumbNo">-</span>
   </a>
 </div>

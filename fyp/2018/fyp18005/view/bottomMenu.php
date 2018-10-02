@@ -6,13 +6,13 @@
     <a class="item disabled">
       <div class="ui form">
         <div class="field">
-          <textarea readonly rows="2">Website developed & designed By FYP18005;&#13;&#10;&#13;&#10;Department of Computer Science,&#13;&#10;The University of Hong Kong;</textarea>
+          <textarea readonly rows="2">Website Developed & Designed by FYP18005,&#13;&#10;Open Source under MIT License;&#13;&#10;&#13;&#10;Department of Computer Science,&#13;&#10;The University of Hong Kong;</textarea>
         </div>
       </div>
       <div class="ui icon input fluid">
         <i class="paperclip link icon large"></i>
         <i class="smile outline link icon large"></i>
-        <input readonly type="text" value="Website developed & designed By FYP18005;   Department of Computer Science, The University of Hong Kong;">
+        <input readonly type="text" value="Website Developed & Designed by FYP18005, Open Source under MIT License;  Department of Computer Science, The University of Hong Kong;">
       </div>
     </a>
   </div>
