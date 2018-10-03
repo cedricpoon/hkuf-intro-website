@@ -1,4 +1,4 @@
-# hkuf-intro-website [![CircleCI](https://circleci.com/gh/cedricpoon/hkuf-intro-website/tree/master.svg?style=svg)](https://circleci.com/gh/cedricpoon/hkuf-intro-website/tree/master)
+# hkuf-intro-website
 Internal project for introductory website of HKU Fellows
 ## Feature
 - [X] PHP Routing for subpages — `/index.php`
