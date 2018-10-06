@@ -1,0 +1,17 @@
+<!-- The image hover box -->
+<div class="ui modal">
+  <div class="header"><i class="file image icon"></i>project-schedule.svg</div>
+  <div class="scrolling content">
+    <div class="description">
+      <p>Details of the Team's project schedule are shown.</p>
+    </div>
+    <img class="ui image fluid" src="/fyp/2018/fyp18005/resources/schedule.svg">
+  </div>
+</div>
+
+<script>
+  /* Register schedule attachment onclick */
+  $('.schedule').click((e) => {
+    $('.ui.modal').modal('show');
+  });
+</script>
