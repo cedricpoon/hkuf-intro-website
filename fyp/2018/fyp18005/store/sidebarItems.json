@@ -23,6 +23,11 @@
     "icon": "calendar alternate outline"
   },
   {
+    "title": "Download",
+    "label": "<div class=\"ui orange label\">Upcoming</div>",
+    "icon": "download"
+  },
+  {
     "title": "AboutUs",
     "icon": "id card"
   }
