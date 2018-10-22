@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="HKU Fellows - A Mobile App for Peer Learners">
     <meta name="description" content="A HKU CS 2018/19 Final Year Project from fyp18005 to prompt knowledge exchange and solution among peers">
+    <meta property="og:image" content=".\resources\plain_500.jpg">
 
     <title>HKU Fellows</title>
     <link rel=icon href=.\favicon.ico>
