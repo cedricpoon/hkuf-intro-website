@@ -26,7 +26,7 @@
     {
       "author": "CP",
       "timestamp": "Today at 09:30AM",
-      "context": "<p><div class='ui link card schedule'><div class='content'><div class='meta'><a><i class='paperclip icon'></i> project-schedule.svg</a></div><img class='ui medium rounded image' src='/fyp/2018/fyp18005/resources/schedule.svg'></div></div></p>",
+      "context": "<p><div class='ui link card schedule'><div class='content'><div class='meta'><a><i class='paperclip icon'></i> project-schedule.svg</a></div><img class='ui medium rounded image' src='.\\resources\\schedule.svg'></div></div></p>",
       "thumbsUp": "<span class='thumbNo'>-</span>",
       "thumbsDown": "<span class='thumbNo'>-</span>"
     }
