@@ -1,12 +1,9 @@
 # hkuf-intro-website
-Internal project for introductory website of HKU Fellows
+Introductory website of HKU Fellows, powered by [Semantic UI](https://semantic-ui.com/ "Semantic UI"), [Less](http://lesscss.org/ "Less.js") and [jQuery](https://jquery.com/ "jQuery").
 ## Feature
 - [X] PHP Routing for subpages — `/index.php`
 - [X] Ajax on subpages and mainpage loading — `/?*(...)`
-- [X] Semantic UI on design — [https://semantic-ui.com/](https://semantic-ui.com/ "Semantic UI"), MIT.
-- [X] Less.js for css — [http://lesscss.org/](http://lesscss.org/ "Less.js"), MIT.
 - [X] MVC as infrastructure
-- [X] jQuery for JS — [https://jquery.com/](https://jquery.com/ "jQuery"), MIT.
 ## Run
 1. `php -S localhost:8080`
 **(Please set document root at `/` instead of `/fyp/2018/fyp18005`)**
