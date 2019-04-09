@@ -1,0 +1,53 @@
+{
+  "include": [],
+  "heading": "Download HKU Fellows",
+  "authors": {
+    "DC": {
+      "href": "https://i.cs.hku.hk/~twchim/",
+      "name": "Dr. T.W. Chim",
+      "icon":"user secret"
+    },
+    "CP": {
+      "href": "mailto:cedricpn@hku.hk",
+      "name": "Cedric Poon",
+      "icon":"chess rook"
+    },
+    "KC": {
+      "href": "mailto:u3532369@hku.hk",
+      "name": "Karen Chiu",
+      "icon":"heart"
+    }
+  },
+  "comments": [
+    {
+      "author": "CP",
+      "timestamp": "Just now",
+      "context": "<p>Our App <a class='ui teal mini icon basic label' onclick='loadPage(\"Introduction\")'><i class='icon graduation cap'></i>HKU Fellows</a> is now being distributed in two different ways for Beta testing.</p>",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": "0",
+      "comments": [
+        {
+          "author": "CP",
+          "timestamp": "Just now",
+          "context": "<p><i class='android icon'></i><b>Android</b> users can download through the <a class='ui teal icon label' href='https://github.com/cedricpoon/HKU-Fellows-UI/releases/latest' target='_blank'><i class='github icon'></i>GitHub Release</a> page, by clicking the <b>Assets</b> tag and installing the APK.</p>",
+          "thumbsUp": "<span class='thumbNo'>-</span>",
+          "thumbsDown": "0"
+        },
+        {
+          "author": "CP",
+          "timestamp": "Just now",
+          "context": "<p><i class='apple icon'></i><b>iOS</b> users can wait for updates coming soon :)</p>",
+          "thumbsUp": "<span class='thumbNo'>-</span>",
+          "thumbsDown": "0"
+        }
+      ]
+    },
+    {
+      "author": "KC",
+      "timestamp": "Just now",
+      "context": "<p>Frontend project of <a class='ui teal mini icon basic label' onclick='loadPage(\"Introduction\")'><i class='icon graduation cap'></i>HKU Fellows</a> is now open-sourced at <a class='ui blue mini icon basic label' href='https://github.com/cedricpoon/HKU-Fellows-UI/'><i class='github icon'></i>GitHub</a></p>",
+      "thumbsUp": "<span class='thumbNo'>-</span>",
+      "thumbsDown": "0"
+    }
+  ]
+}
