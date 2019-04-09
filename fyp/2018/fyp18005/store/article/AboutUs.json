@@ -29,7 +29,7 @@
         {
           "author": "KC",
           "timestamp": "Today at 12:00PM",
-          "context": "<p>We are glad to have <a class='ui image label' href='https://www.cs.hku.hk/people/profile.jsp?teacher=twchim'><img src='https://i.cs.hku.hk/~twchim/images/drtwchim.jpg'>Dr. T.W. Chim</a> from <a href='https://www.cs.hku.hk/'><i class='linkify icon'></i>Department of Computer Science, HKU</a> to be our supervisor in this project.</p>",
+          "context": "<p>We are glad to have <a class='ui basic image label' href='https://www.cs.hku.hk/people/profile.jsp?teacher=twchim'><img src='https://i.cs.hku.hk/~twchim/images/drtwchim.jpg'>Dr. T.W. Chim</a> from <a href='https://www.cs.hku.hk/'><i class='linkify icon'></i>Department of Computer Science, HKU</a> to be our supervisor in this project.</p>",
           "thumbsUp": "<span class='thumbNo'>-</span>",
           "thumbsDown": "0"
         }
@@ -45,7 +45,7 @@
     {
       "author": "CP",
       "timestamp": "Just now",
-      "context": "<p><a class='ui image label' href='https://github.com/cedricpoon/'><img src='https://scontent-hkg3-2.xx.fbcdn.net/v/t1.0-1/p320x320/26903768_10215555014176522_1568809672410698583_n.jpg?_nc_cat=109&_nc_ht=scontent-hkg3-2.xx&oh=9c084b274dd9c9d31220c17d0e73d306&oe=5D19A235'>POON Tsz Ho Cedric</a></p><p>Final Year Computer Science Student</p><p><a href='https://www.linkedin.com/in/cedricthpoon'><i class='linkedin icon'></i>cedricthpoon</a></p><p><a href='mailto:cedricpn@hku.hk'><i class='envelope icon'></i>cedricpn@hku.hk</a></p>",
+      "context": "<p><a class='ui basic image label' href='https://github.com/cedricpoon/'><img src='https://scontent-hkg3-2.xx.fbcdn.net/v/t1.0-1/p320x320/26903768_10215555014176522_1568809672410698583_n.jpg?_nc_cat=109&_nc_ht=scontent-hkg3-2.xx&oh=9c084b274dd9c9d31220c17d0e73d306&oe=5D19A235'>POON Tsz Ho Cedric</a></p><p>Final Year Computer Science Student</p><p><a href='https://www.linkedin.com/in/cedricthpoon'><i class='linkedin icon'></i>cedricthpoon</a></p><p><a href='mailto:cedricpn@hku.hk'><i class='envelope icon'></i>cedricpn@hku.hk</a></p>",
       "thumbsUp": "<span class='thumbNo'>-</span>",
       "thumbsDown": "0"
     },

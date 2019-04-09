@@ -1,16 +1,16 @@
 [
   {
     "title": "Introduction",
-    "label": "<div class=\"ui red label\">New Post</div>",
+    "label": "<div class=\"ui orange label\">Important</div>",
     "icon": "flag"
   },
   {
     "title": "Objectives",
-    "label": "<div class=\"ui teal label\">Featured</div>",
     "icon": "search"
   },
   {
     "title": "Scope",
+    "label": "<div class=\"ui teal label\">Featured</div>",
     "icon": "binoculars"
   },
   {
@@ -19,12 +19,11 @@
   },
   {
     "title": "Schedule",
-    "label": "<div class=\"ui teal label\">Featured</div>",
     "icon": "calendar alternate outline"
   },
   {
     "title": "Download",
-    "label": "<div class=\"ui orange label\">Upcoming</div>",
+    "label": "<div class=\"ui red label\">New Post</div>",
     "icon": "download"
   },
   {
