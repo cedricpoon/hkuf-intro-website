@@ -36,7 +36,7 @@
         {
           "author": "CP",
           "timestamp": "Just now",
-          "context": "<p><i class='apple icon'></i><b>iOS</b> users can wait for updates coming soon :)</p>",
+          "context": "<p><i class='apple icon'></i><b>iOS</b> users can download through <a class='ui blue icon label' href='https://testflight.apple.com/join/vaBPZwwP' target='_blank'><i class='app store icon'></i>TestFlight</a> by installing TestFlight App from App Store. Notice that the number of downloader is limited.</p>",
           "thumbsUp": "<span class='thumbNo'>-</span>",
           "thumbsDown": "0"
         }
