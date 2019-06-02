@@ -1,4 +1,4 @@
-# hkuf-intro-website 𐄁 [![](https://i.cs.hku.hk/fyp/2018/fyp18005/badge.svg "Last deployment")](https://i.cs.hku.hk/fyp/2018/fyp18005/checkalive)
+# hkuf-intro-website 𐄁 ![](https://img.shields.io/static/v1.svg?label=status&message=archive&color=yellow)
 Introductory website of HKU Fellows, powered by [Semantic UI](https://semantic-ui.com/ "Semantic UI"), [Less](http://lesscss.org/ "Less.js") and [jQuery](https://jquery.com/ "jQuery").
 ## Feature
 - [X] PHP Routing for subpages — `/index.php`
